@@ -5,8 +5,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 
+SESSION_ID: process.env.SESSION_ID ||  "G2QnxCgK#T5_HoMK5BFw5AMPam402CgzeCHxhkh73x2XvFDuW31U",
+MONGODB: process.env.MONGODB || "mongodb+srv://modsvima:miTEHBIPv0Hem0F6@cluster0.lh2toc6.mongodb.net/",   
+
+
+
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id',
+SESSION_ID: process.env.SESSION_ID || 'G2QnxCgK#T5_HoMK5BFw5AMPam402CgzeCHxhkh73x2XvFDuW31U',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'youre POSTGRESQL url',
 LANG: process.env.BOT_LANG || 'EN' ,
 PREFIX: process.env.PREFIX || '.',
